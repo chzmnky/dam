@@ -1,0 +1,20 @@
+package: github.com/chzmnky/dam
+import:
+- package: github.com/spf13/cobra
+- package: github.com/spf13/pflag
+- package: github.com/docker/engine-api
+- package: golang.org/x/net
+  subpackages:
+  - context
+- package: github.com/docker/go-units
+- package: github.com/docker/go-connections
+  subpackages:
+  - nat
+- package: github.com/docker/distribution
+  subpackages:
+  - reference
+- package: github.com/opencontainers/runc
+  subpackages:
+  - libcontainer/user
+- package: github.com/inconshreveable/mousetrap
+- package: github.com/Microsoft/go-winio

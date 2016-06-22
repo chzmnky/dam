@@ -1,0 +1,32 @@
+hash: 4000acc6adb8782600386e3c92de161cf42a6283bc3b3b45d6880c6610765ecd
+updated: 2016-06-21T19:57:31.176030689-06:00
+imports:
+- name: github.com/docker/distribution
+  version: edd7cb5249d0a45262b20bb58b838ecf4fb368bd
+  subpackages:
+  - reference
+- name: github.com/docker/engine-api
+  version: f90ecdb1e989f834dabbd91807e891094aa069fe
+- name: github.com/docker/go-connections
+  version: 990a1a1a70b0da4c4cb70e117971a4f0babfbf1a
+  subpackages:
+  - nat
+- name: github.com/docker/go-units
+  version: f2d77a61e3c169b43402a0a1e84f06daf29b8190
+- name: github.com/inconshreveable/mousetrap
+  version: 76626ae9c91c4f2a10f34cad8ce83ea42c93bb75
+- name: github.com/Microsoft/go-winio
+  version: ce2922f643c8fd76b46cadc7f404a06282678b34
+- name: github.com/opencontainers/runc
+  version: 5dc3f3576efb5262bf582217e93f86c93944374d
+  subpackages:
+  - libcontainer/user
+- name: github.com/spf13/cobra
+  version: 6a8bd97bdb1fc0d08a83459940498ea49d3e8c93
+- name: github.com/spf13/pflag
+  version: 367864438f1b1a3c7db4da06a2f55b144e6784e0
+- name: golang.org/x/net
+  version: bc3663df0ac92f928d419e31e0d2af22e683a5a2
+  subpackages:
+  - context
+devImports: []
